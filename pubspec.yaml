@@ -4,8 +4,8 @@ version: 0.2.6
 homepage: https://github.com/jhomlala/alice
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.12.0"
+  sdk: ">=2.16.0 <3.0.0"
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
@@ -22,7 +22,7 @@ dependencies:
   sensors: ^2.0.3
   share: ^2.0.4
   chopper: ^4.0.5
-  collection: ^1.16.0
+  collection: ^1.15.0
 
 dev_dependencies:
   lint: ^1.8.2
