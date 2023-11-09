@@ -5,24 +5,24 @@ author: Jakub Homlala <jhomlala@gmail.com>
 homepage: https://github.com/jhomlala/alice
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.12.0"
+  sdk: '>=3.1.5 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.3
-  dio: ^4.0.0
-  flutter_local_notifications: ^8.1.1
+  http: ^1.0.0
+  dio: ^5.3.3
+  flutter_local_notifications: ^16.1.0
   rxdart: ^0.27.1
 
   path_provider: ^2.0.2
-  permission_handler: ^8.1.4+2
-  package_info_plus: ^1.0.4
+#  permission_handler: ^8.1.4+2
+  permission_handler: ^11.0.1
+  package_info_plus: ^4.2.0
   open_file: ^3.2.1
   sensors: ^2.0.3
-  share: ^2.0.4
-  chopper: ^4.0.1
+  share_plus: ^7.2.1
+  chopper: ^7.0.9
   collection: ^1.15.0
 
 dev_dependencies:

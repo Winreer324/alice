@@ -16,7 +16,7 @@ class AliceStatsScreen extends StatelessWidget {
       child: Theme(
         data: ThemeData(
             brightness: aliceCore.brightness,
-            accentColor: AliceConstants.lightRed),
+            primaryColor: AliceConstants.lightRed),
         child: Scaffold(
           appBar: AppBar(
             title: const Text("Alice - HTTP Inspector - Stats"),

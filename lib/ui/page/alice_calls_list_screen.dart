@@ -43,7 +43,7 @@ class _AliceCallsListScreenState extends State<AliceCallsListScreen> {
       child: Theme(
         data: ThemeData(
             brightness: widget._aliceCore.brightness,
-            accentColor: AliceConstants.lightRed),
+            primaryColor: AliceConstants.lightRed),
         child: Scaffold(
           appBar: AppBar(
             title: _searchEnabled ? _buildSearchField() : _buildTitleWidget(),

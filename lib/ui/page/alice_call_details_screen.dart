@@ -8,7 +8,7 @@ import 'package:alice/ui/widget/alice_call_request_widget.dart';
 import 'package:alice/ui/widget/alice_call_response_widget.dart';
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:flutter/material.dart';
-import 'package:share/share.dart';
+import 'package:share_plus/share_plus.dart';
 
 class AliceCallDetailsScreen extends StatefulWidget {
   final AliceHttpCall call;
@@ -36,7 +36,7 @@ class _AliceCallDetailsScreenState extends State<AliceCallDetailsScreen>
       child: Theme(
         data: ThemeData(
             brightness: widget.core.brightness,
-            accentColor: AliceConstants.lightRed),
+            primaryColor: AliceConstants.lightRed),
         child: StreamBuilder<List<AliceHttpCall>>(
           stream: widget.core.callsSubject,
           initialData: [widget.call],
